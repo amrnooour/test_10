@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:test_10/core/constatnts.dart';
 
 class ListScreen extends StatefulWidget {
-  const ListScreen({Key? key}) : super(key: key);
+  const ListScreen({super.key});
 
   @override
   State<ListScreen> createState() => _ListScreenState();
